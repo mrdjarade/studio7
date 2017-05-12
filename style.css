@@ -71,6 +71,7 @@ h1 {
 	color: white;
 	font-size: 60px;
 	margin-bottom: 10px;
+	font-family: "OpenSans";
 }
 
 span {
@@ -84,6 +85,7 @@ header p {
 	text-align:center;
 	color: white;
 	font-size: 18px;
+	font-family: "OpenSans";
 }
 
 .learn {
@@ -97,6 +99,7 @@ header p {
 	padding-right: 20px;
 	text-decoration:none;
 	margin-left: 40%;
+	font-family: "OpenSans";
 }
 
 .learn:hover {
@@ -113,6 +116,7 @@ header p {
 #services p {
 	font-size: 15px;
 	color: rgba(255,255,255,0.5);
+	font-family: "OpenSans";
 }
 
 .podnaslov{
@@ -121,10 +125,12 @@ header p {
 	text-align: center;
 	padding-left: 120px;
 	padding-right: 120px;
+	font-family: "OpenSans";
 }
 
 .services {
 	text-align:center;
+	font-family: "OpenSans";
 }
 
 h2 {
@@ -134,11 +140,13 @@ h2 {
     font-size: 40px;
     font-weight: 400;
     padding-bottom: 10px;
+	font-family: "OpenSans";
 }
 
 h4 {
 	color: #25BAD0;
 	font-size: 20px;
+	font-family: "OpenSans";
 }
 
 .cards i {
@@ -176,12 +184,14 @@ h4 {
 
 #about h2 {
 	color: white;
+	font-family: "OpenSans";
 }
 
 #about p {
 	color: white;
 	padding-left: 20px;
 	font-size: 15px;
+	font-family: "OpenSans";
 }
 
 .about {
@@ -197,6 +207,7 @@ img {
 	color: #03252b;
 	font-size: 20px;
 	padding-left: 20px;
+	font-family: "OpenSans";
 }
 
 .slika {
@@ -212,10 +223,12 @@ img {
 
 #portfolio p {
 	color: rgba(255,255,255,0.5);
+	font-family: "OpenSans";
 }
 
 #portfolio div {
 	text-align:center;
+	font-family: "OpenSans";
 }
 
 .galerija {
@@ -237,10 +250,12 @@ img {
 
 #team h2 {
 	color: white;
+	font-family: "OpenSans";
 }
 
 #team p {
 	color: white;
+	font-family: "OpenSans";
 }
 
 #team div {
@@ -284,6 +299,7 @@ img {
 
 #contact p {
 	color: rgba(255,255,255,0.5);
+	font-family: "OpenSans";
 }
 
 .gradient1 {
@@ -307,5 +323,6 @@ footer p {
 	color:rgba(255,255,255,0.5);
 	margin: 0px;
 	font-size: 13px;
+	font-family: "OpenSans";
 
 }

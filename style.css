@@ -1,0 +1,311 @@
+@font-face { font-family: "FontAwesome"; src: url("font-awesome.otf"); }
+@font-face { font-family: "OpenSans"; src: url("opensans.ttf"); }
+
+body {
+	margin: 0;
+	font-family: "OpenSans";
+}
+
+header {
+	background-image: url("images/pozadina.jpg");
+	background-size: cover;
+	height: 100vh;
+	
+}
+
+.gradient {
+	background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+
+nav {
+	font-family: "FontAwesome";
+	background-color: #03252b;
+	overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 15px;
+}
+
+nav a {
+	color:rgba(255,255,255,0.8);
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding-right: 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:#25BAD0 ;
+}
+
+nav i {
+	margin-left: 20px;
+	color: #25BAD0
+}
+
+.studio {
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.fa fa-moon-o {
+	color: #25BAD0
+}
+
+.studio:hover {
+	color:rgba(255,255,255,0.8);
+}
+
+h1 {
+	color: white;
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+span {
+	font-style: bold;
+	color:#25BAD0;
+}
+
+header p {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-align:center;
+	color: white;
+	font-size: 18px;
+}
+
+.learn {
+	color: #25BAD0;
+	text-align:center;
+	border-style: solid;
+	border-size: 1px;
+	border-color: #25BAD0;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration:none;
+	margin-left: 40%;
+}
+
+.learn:hover {
+	background-color: #25BAD0;
+	color: white;
+}
+
+#services {
+	padding: 120px 0px;
+	background-color: #053740;
+
+}
+
+#services p {
+	font-size: 15px;
+	color: rgba(255,255,255,0.5);
+}
+
+.podnaslov{
+	font-size: 15px;
+	color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+.services {
+	text-align:center;
+}
+
+h2 {
+    margin: 0;
+    color: #25BAD0;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+h4 {
+	color: #25BAD0;
+	font-size: 20px;
+}
+
+.cards i {
+	font-size:50px;
+	color:#053740;
+	border: 1px solid #25BAD0;
+    background: #25BAD0;
+    border-radius: 50%;
+    padding: 30px;
+
+}
+
+.cards {
+	margin-top: 40px;
+}
+
+.cards p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.kartice {
+	padding: 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align:center;
+}
+
+#about {
+	background-color: #25BAD0;
+	padding: 120px;
+}
+
+#about h2 {
+	color: white;
+}
+
+#about p {
+	color: white;
+	padding-left: 20px;
+	font-size: 15px;
+}
+
+.about {
+	text-align:center;
+}
+
+img {
+	padding-top: 50px;
+	height: auto;
+}
+
+#about h4 {
+	color: #03252b;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.slika {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0px;
+}
+
+#portfolio {
+	padding: 120px;
+	background-color: #03252b;
+}
+
+#portfolio p {
+	color: rgba(255,255,255,0.5);
+}
+
+#portfolio div {
+	text-align:center;
+}
+
+.galerija {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.galerija img:hover {
+	transition-duration: 1s;
+    transform: scale(1.2);
+}
+
+#team {
+	padding: 120px;
+	background-color: #25BAD0;
+}
+
+#team h2 {
+	color: white;
+}
+
+#team p {
+	color: white;
+}
+
+#team div {
+	text-align:center;
+}
+
+.tim {
+	padding: 0px 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align:center;
+}
+
+.tim div {
+	margin-top: 40px;
+}
+
+.tim div p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cards {
+	padding: 10px;
+	justify-content: center;
+}
+
+.cards img {
+	border-size:1px;
+	border-color: black;
+	border-radius: 60%;
+	padding: 0px;
+}
+
+#contact {
+	background-image: url("images/contact.jpg");
+	background-size: cover;
+}
+
+#contact p {
+	color: rgba(255,255,255,0.5);
+}
+
+.gradient1 {
+	background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%);
+	width: 100%;
+	height: 100%;
+}
+
+.gradient1 div {
+	text-align: center;
+	padding: 120px;
+}
+
+footer {
+	background-color: #03252b; 
+	padding: 20px;
+}
+
+footer p {
+	text-align: center;
+	color:rgba(255,255,255,0.5);
+	margin: 0px;
+	font-size: 13px;
+
+}
